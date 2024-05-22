@@ -1,0 +1,98 @@
+#block_registr{
+    position: fixed;
+    display: none;
+    width:600px;
+    height: 500px;
+    border:5px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 24;
+}
+
+.content_registr{
+    width: 100%;
+    height: 440px;
+    background-color: #ffffff;
+}
+/* ------------------------- */
+.text_registr{
+    padding-top: 15px;
+    width: 100%;
+    height: 300px;
+   
+}
+.zagolovok_registr{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    position: static;
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+.exit{
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+    position: absolute;
+    display: inline-block;
+    left: 95%;
+    top: 0;
+}
+.header_registr{
+    position: static;
+    width: 100%;
+    height: 50px;
+    background-color: #10e7f4;
+}
+.content_registr form {
+    width: 100%;
+    height: 365px;
+}
+.content_registr form label{
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.content_registr form p{
+    margin-left: 15px;
+    padding: 20px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+.content_registr form input{
+    border: 1px solid #10e7f4;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5%;
+    color: #10e7f4;
+    font-size: 15px;
+}
+.content_registr input:focus {
+    outline: red;
+}
+.content_registr input:focus::placeholder{
+    color: #000000;
+}
+.otpravka{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.otpravka button{
+    display: inline-block;
+    position: static;
+    padding: 10px 45px;
+    background-color: #10e7f4;
+    border: 1px solid #10e7f4;
+    color: #ffffff;
+}

@@ -1,0 +1,142 @@
+.korzina a{
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #10e7f4;
+    border: 1px solid #10e7f4;
+    color: #ffffff;
+    margin-top: 35px;
+    text-decoration: none;
+    box-sizing: border-box
+}
+
+
+.model_okno{
+    position: fixed;
+    display: none;
+    width:600px;
+    height: 710px;
+    border:5px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+    z-index: 25;
+}
+.zagolovok{
+    position: static;
+    background-color: #10e7f4;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    border-bottom: 3px solid black;
+    border-collapse: collapse;
+}
+.zagolovok_korzina{
+    position: fixed;
+    display: inline;
+    left: 5%;
+    margin: 0px;
+    font-size: xx-large;
+    color: #ffffff;
+}
+.exit{
+    position: fixed;
+    display: inline;
+    font-size: xx-large;
+    left: 95%;
+    margin: 0px;
+    color: #ffffff;
+}
+.content{
+    position: static;
+    color: black;
+    width: 100%;
+    height: 550px;
+    background-color: antiquewhite;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-y: scroll;
+    
+ 
+}
+
+.korzina{
+    color: #ffffff;
+    width: 100%;
+    height: 100px;
+    background-color: tan;
+    position: fixed;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+.korzina p {
+    margin-top: 35px;
+    padding: 0px;
+    display: inline-block;
+    width: 160px;
+    height: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+.clear{
+    position: fixed;
+    display: inline;
+    left: 70%;
+    margin-top: 30px;
+    color: #ffffff;
+}
+.pokupka{
+    position: fixed;
+    display: inline;
+    left: 5%;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.tovar{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+.content p{
+display: inline-block;
+}
+.content div{
+    background-color: #ffffff;
+    width: 100%;
+    height: 30px;
+}
+.button{
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #2c2c2c;
+    border: 1px solid #2c2c2c;
+    color: #ffffff;
+    margin: -0.5px 0 0 -0.5px;
+    font-family: 'Roboto', sans-serif;
+}
+.button:hover{
+    background-color: #10e7f4;
+    color: #ffffff;
+}
+.slider_section button{
+    padding-top: 10px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+}
+#itog_summa{
+    display: flex;
+    justify-content: center;
+}
