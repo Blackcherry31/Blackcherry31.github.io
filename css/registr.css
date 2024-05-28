@@ -1,4 +1,4 @@
-#block_registr{
+.block_registr{
     position: fixed;
     display: none;
     width:600px;
@@ -8,18 +8,26 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 24;
+
 }
 
 .content_registr{
     width: 100%;
     height: 440px;
-    background-color: #ffffff;
+	background-color:antiquewhite;
+
 }
 /* ------------------------- */
 .text_registr{
     padding-top: 15px;
     width: 100%;
-    height: 300px;
+    height: auto;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
    
 }
 .zagolovok_registr{
@@ -54,6 +62,7 @@
 .content_registr form {
     width: 100%;
     height: 365px;
+	background-color:#aqua
 }
 .content_registr form label{
     color: #000000;
@@ -66,7 +75,6 @@
     margin-left: 15px;
     padding: 20px;
     display: inline-block;
-    background-color: #ffffff;
 }
 .content_registr form input{
     border: 1px solid #10e7f4;
