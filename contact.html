@@ -28,10 +28,15 @@
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- registr polizovatela -->
+  <link href="css\registr.css" rel="stylesheet" />
+
+  <!-- Корзина -->
+  <link href="css\modal.css" rel="stylesheet" />
 </head>
 
 <body class="sub_page">
@@ -73,11 +78,11 @@
                 <input type="search" placeholder="Поиск">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form>
-              <div class="login_btn-contanier ml-0 ml-lg-5">
-                <a href="">
+             <div class="login_btn-contanier ml-0 ml-lg-5">
+                <a href="#" class="login" onclick="registr()">
                   <img src="images/user.png" alt="">
                   <span>
-                    Войти
+                    Войти 
                   </span>
                 </a>
               </div>
@@ -88,6 +93,37 @@
       </div>
     </header>
     <!-- end header section -->
+  </div>
+
+ <div id="block_registr" class="block_registr">
+      <div class="header_registr">
+          <h2 class="zagolovok_registr">Регистрация пользователя</h2>
+          <span class='exit' onclick="registr_exit()">x</span>
+      </div>
+
+      <div class="content_registr">
+          <form>
+              <div class="text_registr">
+                  <p>
+                      <label>Логин:</label>
+                      <input type="text" placeholder="Введите логин:">
+                  </p>
+                  <p>
+                      <label>Пароль:</label>
+                      <input type="password" placeholder="Введите пароль:">
+                  </p>
+                  <p>
+                      <label>Повторите пароль:</label>
+                      <input type="password" placeholder="Повторите пароль:">
+                  </p>
+              </div>
+
+              <div class="otpravka">
+                  <button type="submit">Отправить</button>
+                  <button type="reset">Очистить</button>
+              </div>
+          </form>
+      </div>
   </div>
 
 
@@ -123,10 +159,15 @@
               </div>
               <div class="form-group ">
                 <label for="inputState">Выбор клиники</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Клиника на ул. Пожарского</option>
-                  <option selected>Клиника на ул. Ямашева</option>
-                  <option selected>Клиника на ул. Сырова</option>
+                  <select id="inputState" class="form-control">
+                  <option selected>Клиника Баумана, 49</option>
+                  <option selected>Клиника Курская, 23</option>
+                  <option selected>Клиника Мусина, 69</option>
+				  <option selected>Клиника Исаева, 5</option>
+				  <option selected>Клиника Аграрная, 2</option>
+				  <option selected>Клиника Лукина, 10</option>
+				  <option selected>Клиника Беломорская, 260</option>
+				  <option selected>Клиника Гагарина, 121</option>
                 </select>
               </div>
               <div class="form-group">
@@ -252,8 +293,8 @@
     </p>
   </section>
   <!-- footer section -->
-  <script src="js\modal.js"></script>
-  <script src="js\registr.js"></script>
+ <script type="text/javascript" src="js/modal.js"></script>
+  <script type="text/javascript" src="js/registr.js"></script>
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
