@@ -131,3 +131,8 @@ function all_del() {
 
     document.getElementById('itog_summa').innerHTML = itog;
 }
+
+
+
+
+
