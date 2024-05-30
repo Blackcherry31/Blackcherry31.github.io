@@ -24,6 +24,8 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  
+  <link rel="stylesheet" type="text/css" href="css/adaptiv.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap" rel="stylesheet">
@@ -143,15 +145,15 @@
 
       </div>
       <div class="korzina">
-		  <div>
+		  <div class='div'>
 		  		<p>Бронирование держится сутки</p><br>
 			<a class="pokupka" id="pokupka">Забронировать</a>
 		  </div>
-		  <div>
+		  <div class='div'>
           <p>Итоговая сумма: <span id="itog_summa">0</span></p>
 		  </div>
 		  
-		  <div>
+		  <div class='div'>
 		    <p>Выбор клиники:</p>
                 <select id="inputState" class="klinika">
                   <option selected>Клиника Баумана, 49</option>
@@ -187,7 +189,13 @@
                   <!-- товар -->
                   Купить
                 </button>
+				<div class="block_recipe">
                 <span class="name" id="name1">Донормил</span>
+				<p class="recipe_zagolovok">
+				<img src="images\recipe.jpg" id="recipe_img" title="по рецепту"></img>
+				<span class="recipe">По рецепту</span>
+				</p>
+				</div>
               </div>
               <div class="img-box">
                 <img src="images\tabletka1.jpg" width="250px" height="250px" alt="">
@@ -219,7 +227,13 @@
                 <button type="button" class="button" id="tovar2" onclick="tovar(this.id)">
                   Купить
                 </button>
+				<div class="block_recipe">
                 <span class="name" id="name2">Реасон</span>
+					<p class="recipe_zagolovok">
+				<img src="images\recipe.jpg" id="recipe_img" title="по рецепту"></img>
+				<span class="recipe">По рецепту</span>
+				</p>
+				</div>
               </div>
               <div class="img-box">
                 <img src="images\kapsula1.jpg" width="250px" height="250px" alt="">
@@ -528,7 +542,12 @@
                 <button type="button" class="button" id="tovar11" onclick="tovar(this.id)">
                   Купить
                 </button>
+				<div class="block_recipe">
                 <span class="name" id="name11">Элентра</span>
+				<p class="recipe_zagolovok">
+				<img src="images\recipe.jpg" id="recipe_img" title="по рецепту"></img>
+				<span class="recipe">По рецепту</span>
+				</div>
               </div>
               <div class="img-box">
                 <img src="images\vitamin3.jpg" width="250px" height="250px" alt="">
