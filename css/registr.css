@@ -128,5 +128,12 @@
 	}
 	.otpravka{
 		flex-direction: column;
+		margin-top: 5px;
+	}
+	.content_registr form p {
+		padding: 15px;
+	}
+	.content_registr form input{
+		    width: 200px;
 	}
 }
