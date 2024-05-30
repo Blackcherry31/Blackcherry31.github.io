@@ -148,9 +148,8 @@ display: inline-block;
 @media (max-width: 800px) {
 	.model_okno{
 		width:300px;
-		height:1110px;
+		height:660px;
 		margin-top: 50px;
-		position: absolute;
 	}
 	.korzina{
 		height:500px;
@@ -162,5 +161,8 @@ display: inline-block;
 	}
 	.clear{
 		left:60px;
+	}
+	.content{
+		height: 100px;
 	}
 }
